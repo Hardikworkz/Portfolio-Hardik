@@ -8,12 +8,12 @@ import { PiFileCppFill , PiFileSqlFill} from "react-icons/pi";
 import { SiCodingninjas } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
-import { SiNumpy } from "react-icons/si";
-import { SiTensorflow } from "react-icons/si";
-import { SiScikitlearn } from "react-icons/si";
+import { BiLogoKubernetes } from "react-icons/bi";
+import { FaAws } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoCss3 } from "react-icons/io";
+import { FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
@@ -51,7 +51,11 @@ export default function Portfolio() {
         <aside className="sidebar">
           <h3 className="sidebar-title">Hardik Lalwani</h3>
           <p className="sidebar-desc">
-            I’m Hardik Lalwani, a MERN-Stack and ML-driven systems developer with expertise in building scalable, high-performance web applications. With a strong foundation in both front-end and back-end development, I specialize in creating dynamic user experiences and optimizing performance across various platforms.
+            Detail-oriented Software Engineer Intern with strong foundations in computer science, data structures,
+algorithms, and cloud-based application development. Hands-on experience building scalable backend systems,
+SQL-driven applications, and cloud-deployed services using AWS, Docker, and CI/CD pipelines. Proven ability
+to collaborate effectively in agile team environments, solve complex technical problems, and deliver secure,
+performance-optimized, customer-focused software solutions.
           </p>
         </aside>
 
@@ -109,12 +113,12 @@ export default function Portfolio() {
               <span className="chip"> 
                 <LuGithub />GitHub</span>
               <span className="chip"><SiTailwindcss />Tailwind </span>
-              <span 
-              className="chip"><SiTensorflow />TensorFlow</span>
-              <span className="chip"><SiScikitlearn />scikit-learn</span>
-              <span className="chip"><SiNumpy />Numpy</span>
-              {/* <span className="chip"> <FaHtml5 />HTML</span>
-              <span className="chip"> <IoLogoCss3 />CSS</span> */}
+              <span className="chip"><FaHtml5/>HTML</span>
+              <span className="chip"><IoLogoCss3/>CSS</span>
+              <span className="chip"><FaDocker />Docker</span>
+              <span className="chip"><BiLogoKubernetes/>Kubernetes</span>
+              <span className="chip"><FaAws/>Aws</span>
+              
             </div>
           </section>
           <section className="section">
@@ -177,18 +181,22 @@ export default function Portfolio() {
             <h2 className="section-title">Projects</h2>
 
             <div className="card">
-              <h3>Agri-Support · Full-Stack AI Platform</h3>
-              <p>
-                Designed and implemented an AI-assisted decision-support backend that ingests real-time weather data via external APIs, processes it through AI-driven recommendation logic, and exposes optimized endpoints powering a conversational chatbot for non-technical users, while refactoring database queries and data pipelines to reduce API response latency by 25% and improve recommendation accuracy and user engagement by 25%.
+              <div className="flex items-center mb-2 gap-4"> <h3>Agri-Support · Full-Stack AI Platform</h3>
+             <a href="https://github.com/Hardikworkz/Agri-Support"> 
+                <LuGithub /> </a> </div>
+              <p> 
+               I designed backend architecture grounded in RDBMS principles and integrated third-party APIs to support seamless data flow. Building on this foundation, I developed a conversational chatbot that delivered real-time weather and crop recommendations, enhancing usability for non-technical users. By optimizing data pipelines, I improved API response times by 25%, ensuring faster and more reliable interactions. The system was further refined with customer-focused design principles, making it accessible and impactful for a broad user base.
 
               </p>
             </div>
 
             <div className="card">
-              <h3>BreatheWise · AI-Driven Air Quality Analytics</h3>
+              <div className="flex items-center mb-2 gap-4"> <h3>BreatheWise · AI-Driven Air Quality Analytics</h3>
+             <a className="cursor-pointer" href="https://github.com/Hardikworkz/BreathWise"> 
+                <LuGithub /> </a> </div>
+              
               <p>
-               Designed and deployed a hyperlocal air-quality monitoring and prediction system by engineering SQL-based data pipelines to aggregate traffic, satellite, and weather data, training and serving ensemble ML models (XGBoost, LSTM), and exposing the models through scalable REST APIs, resulting in an 18% improvement in smog hotspot prediction accuracy and a 32% reduction in end-to-end prediction latency.
-
+               I built scalable REST APIs and real-time data pipelines to analyze air-quality metrics, achieving a 32% reduction in latency and an 18% improvement in prediction accuracy for smog hotspot detection. To ensure reliability and scalability, I deployed containerized backend services on AWS with fault-tolerant architecture. Additionally, I designed a distributed alert system that delivered personalized, customer-centric health recommendations, enabling proactive responses to environmental risks.
               </p>
             </div>
           </section>
@@ -203,8 +211,7 @@ export default function Portfolio() {
               <span className="badge">June 2025 – July 2025</span>
               </div>
               <p>
-               Designed and implemented scalable full-stack features across internal and client-facing platforms, optimizing analytics dashboards through memoization and component-level splitting to reduce unnecessary re-renders, while engineering a secure authentication layer using JWT, bcrypt, and role-based access control and tuning indexed database queries, resulting in a 40% reduction in unauthorized access and measurable backend performance gains.
-
+              I optimized a React-based analytics dashboard by reducing unnecessary re-renders, significantly improving page load efficiency and user experience. To ensure secure access, I implemented authentication mechanisms using JWT and bcrypt with role-based access control (RBAC). On the backend, I improved response times by indexing SQL queries and optimizing PostgreSQL database operations, resulting in faster and more reliable data handling. Collaborating closely with cross-functional design and product teams, I delivered production-grade features that aligned technical performance with business goals.
               </p>
             </div>
           </section>
