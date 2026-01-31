@@ -2,8 +2,7 @@ import "./portfolio.css";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { LuGithub , LuLinkedin} from "react-icons/lu";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaHtml5 } from "react-icons/fa";
-import { MdLocalPhone } from "react-icons/md";
+ import { MdLocalPhone } from "react-icons/md";
 import { PiFileCppFill , PiFileSqlFill} from "react-icons/pi";
 import { SiCodingninjas } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
@@ -12,8 +11,7 @@ import { BiLogoKubernetes } from "react-icons/bi";
 import { FaAws } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
-import { IoLogoCss3 } from "react-icons/io";
-import { FaDocker } from "react-icons/fa";
+ import { FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
@@ -22,6 +20,7 @@ import { FaPython , FaReact, FaNode} from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { DiDjango } from "react-icons/di";
 export default function Portfolio() {
   return (
     <div className="page">
@@ -99,6 +98,7 @@ performance-optimized, customer-focused software solutions.
               <span className="chip"><FaPython />Python</span>
               <span className="chip"><IoLogoJavascript />JavaScript</span>
               <span className="chip"><BiLogoTypescript />TypeScript</span>
+              <span className="chip"><BiLogoTypescript />DJango</span>
              
               <span className="chip"><FaGolang />GoLang</span>
               <span className="chip"><PiFileSqlFill />SQL</span>
@@ -113,8 +113,6 @@ performance-optimized, customer-focused software solutions.
               <span className="chip"> 
                 <LuGithub />GitHub</span>
               <span className="chip"><SiTailwindcss />Tailwind </span>
-              <span className="chip"><FaHtml5/>HTML</span>
-              <span className="chip"><IoLogoCss3/>CSS</span>
               <span className="chip"><FaDocker />Docker</span>
               <span className="chip"><BiLogoKubernetes/>Kubernetes</span>
               <span className="chip"><FaAws/>Aws</span>
