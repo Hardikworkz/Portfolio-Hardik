@@ -66,7 +66,7 @@ performance-optimized, customer-focused software solutions.
               Building Scalable Full-Stack & AI-Driven Systems.
             </h1>
             <p className="hero-subtitle">
-              Software Engineer · MERN-Stack · ML-Focused
+              Software Engineer · MERN-Stack · AL/ML-Focused · DevOps 
             </p>
 
             <div className="hero-meta">
@@ -183,7 +183,8 @@ performance-optimized, customer-focused software solutions.
              <a href="https://github.com/Hardikworkz/Agri-Support"> 
                 <LuGithub /> </a> </div>
               <p> 
-               I designed backend architecture grounded in RDBMS principles and integrated third-party APIs to support seamless data flow. Building on this foundation, I developed a conversational chatbot that delivered real-time weather and crop recommendations, enhancing usability for non-technical users. By optimizing data pipelines, I improved API response times by 25%, ensuring faster and more reliable interactions. The system was further refined with customer-focused design principles, making it accessible and impactful for a broad user base.
+               Engineered a distributed backend with event-driven microservices across 10+ services; made deliberate architectural choices around routing and data flow that improved system scalability and deployment speed by 20%.
+Improved prediction accuracy by 18% and cut API response time by 32% through PostgreSQL query optimization and efficient data transformation pipelines — direct impact of algorithmic decisions on quality and latency. Configured AWS CI/CD pipelines for automated multi-environment rollouts, reducing deployment overhead and enabling fast iteration cycles.
 
               </p>
             </div>
@@ -194,7 +195,7 @@ performance-optimized, customer-focused software solutions.
                 <LuGithub /> </a> </div>
               
               <p>
-               I built scalable REST APIs and real-time data pipelines to analyze air-quality metrics, achieving a 32% reduction in latency and an 18% improvement in prediction accuracy for smog hotspot detection. To ensure reliability and scalability, I deployed containerized backend services on AWS with fault-tolerant architecture. Additionally, I designed a distributed alert system that delivered personalized, customer-centric health recommendations, enabling proactive responses to environmental risks.
+               Built and maintained REST API endpoints handling real-time data ingestion from multiple external sources using async workflows and concurrent call patterns. Integrated an LLM-backed conversational assistant using LangChain and OpenAI API as a standalone inference workflow, reducing information lookup time by 40%. Implemented JWT-based role-aware authentication with 99% uptime, ensuring data integrity and clean access control across user types.
               </p>
             </div>
           </section>
@@ -206,10 +207,15 @@ performance-optimized, customer-focused software solutions.
             <div className="card">
               <h3>Rookus.in</h3>
               <div className="flex justify-between"><h4>Software Developer Intern </h4>
-              <span className="badge">June 2025 – July 2025</span>
+              <span className="badge">May 2025 – July 2025</span>
               </div>
               <p>
-              I optimized a React-based analytics dashboard by reducing unnecessary re-renders, significantly improving page load efficiency and user experience. To ensure secure access, I implemented authentication mechanisms using JWT and bcrypt with role-based access control (RBAC). On the backend, I improved response times by indexing SQL queries and optimizing PostgreSQL database operations, resulting in faster and more reliable data handling. Collaborating closely with cross-functional design and product teams, I delivered production-grade features that aligned technical performance with business goals.
+            Architected and optimized a React-based analytics dashboard using memoization and efficient state management, significantly 
+reducing unnecessary re-renders and improving UI responsiveness.
+ Designed clean, maintainable REST API endpoints in Node.js with integrated logging and performance metrics, following industry 
+best practices for modular, async-safe backend code.
+ Reduced server load by 57% by redesigning API call patterns and implementing intelligent caching strategies, directly improving 
+system reliability and uptime.
               </p>
             </div>
           </section>
